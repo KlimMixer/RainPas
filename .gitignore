@@ -1,0 +1,10 @@
+*.cfg
+*.ini
+*.dsk
+
+
+*.err
+
+*.out
+
+*.bak
