@@ -1,16 +1,11 @@
 program RainPas;
 
-uses graph;
-
-CONST
-
-TYPE
+uses ptcGraph;
 
 VAR
-        gd, gm : integer;
+        gd, gm : SmallInt;
 BEGIN
-        gd := detect;
-        gm := 0;
+	DetectGraph(gd, gm);
         InitGraph(gd, gm, '');
         if GraphResult <> grok then
                 halt;
